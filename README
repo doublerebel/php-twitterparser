@@ -1,0 +1,15 @@
+php-twitterparser
+Copyright 2009, 2010 Double Rebel
+WTFPL Licensed (http://sam.zoy.org/wtfpl/COPYING)
+
+Works for any Twitter username.  Parses the public XML feed, no login necessary.
+Requires a PHP-writeable cache directory.  Defaults is subdirectory cache/.
+If twitter is failwhaling it will load from cache.  Recaches at most once per
+60 seconds, unless already processing.  Keep this set to a sane number or
+you'll max out the API limit for your server IP.
+
+Maxtweets is the number of tweets to pull.
+
+Most of this was taken from existing open-source code on the 'net, credit given
+where due.  Any improvements welcomed.  This code is without warranty.  Use at
+your own risk.
