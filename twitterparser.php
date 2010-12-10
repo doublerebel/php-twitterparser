@@ -6,8 +6,12 @@ if ($debug) {
 }
 
 /*
+** php-twitterparser
+** https://github.com/doublerebel/php-twitterparser
 ** Copyright 2009, 2010 Double Rebel
-** WTFPL Licensed
+** http:///www.doublerebel.com
+**
+** WTFPL Licensed (http://sam.zoy.org/wtfpl/COPYING)
 ** 
 ** Works for any twitter username.  Parses the public XML feed, no login necessary.
 ** Requires a writeable cache directory.  Defaults is subdirectory cache/.
